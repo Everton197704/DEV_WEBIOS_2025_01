@@ -3,6 +3,7 @@
     <head>
         <h1> Olá Mundo! </h1>
         <h2> Olá Mundo 2 </h2>
+<h3> Testando 
     </head>
             <body>
             </body>
@@ -10,3 +11,8 @@
 
 git vei podi
 help world
+
+- Meu objetivo e ser um otimo programador
+- Aprender inglês avançado.
+- Ganhar em dolar.
+- Ter uma empresa.
