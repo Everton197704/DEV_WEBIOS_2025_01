@@ -12,14 +12,14 @@
     }
 
     th,  td {
-      border: 1px solid #ccc;
+      border: 1px solid #d11717;
       padding: 10px;
       text-align: center;
     }
 
     th {
-      background-color: #f2f2f2;
-      color: #333;
+      background-color: #ebe8e8;
+      color: #db1010;
     }
 
     tr:nth-child(even) {
@@ -27,139 +27,163 @@
     }
 
     tr:hover {
-      background-color: #d1e7dd;
+      background-color: #f1b9b9;
     }
     </style>
 </head>
 <body>
     <table>
-        <th>
-         
-            <td>NOME PRODUTO </td>
-            <td>VALOR UNITÁRIO  </td>
-            <td>NÍVEL DO ESTOQUE  </td>
-            <td>QUANTIDADE EM ESTOQUE  </td>
-            <td>TOTAL VEDIDOS  </td>
-        </th>
         <tr>
-            <td>01 </td>
+            <th>ID DO PRODUTO</th>
+            <th>NOME PRODUTO </th>
+            <th>VALOR UNITÁRIO  </th>
+            <th>NÍVEL DO ESTOQUE  </th>
+            <th>QUANTIDADE EM ESTOQUE  </th>
+            <th>TOTAL VEDIDOS  </th>
+            <th>VALOR VENDIDO UNI.</th>
+        </tr>
+        <tr>
+            <td>001 </td>
             <td>ARROZ </td>
             <td>R$ 20,00 </td>
             <td>MÉDIO</td>
             <td>20</td>
             <td>10 </td>
+            <td>R$200,00</td>
         </tr>
         <tr>
-            <td>02 </td>
+            <td>002 </td>
             <td>FEIJÃO </td>
             <td>R$ 5,00 </td>
-            <td>MÍNIMO</td>
+            <td>MÁXIMO </td>
             <td>20 </td>
             <td>2 </td>
+            <td>R$10,00</td>
         </tr>
         <tr>
-            <td>03 </td>
+            <td>003 </td>
             <td>MACARÃO </td>
             <td>R$ 4,00 </td>
             <td>MÁXIMO </td>
             <td>20</td>
             <td>1 </td>
+            <td>R$4,00</td>
         </tr>
         <tr>
-            <td>04 </td>
+            <td>004 </td>
             <td>MIOJO </td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>R$ 3,00 </td>
+            <td>MÍNIMO </td>
+            <td>20 </td>
+            <td>19 </td>
+            <td>R$57,00</td>
         </tr>
         <tr>
-            <td>05 </td>
+            <td>005 </td>
             <td>MOLHO DE TOMATE </td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>R$ 2,00 </td>
+            <td>MÁXIMO </td>
+            <td>30 </td>
+            <td>2</td>
+            <td>R$4,00</td>
         </tr>
         <tr>
-            <td>06 </td>
+            <td>006 </td>
             <td>PÃO</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>R$ 0,50 </td>
+            <td>MÉDIO</td>
+            <td>100</td>
+            <td>50</td>
+            <td>R$25,00</td>
         </tr>
         <tr>
-            <td>07</td>
+            <td>007</td>
             <td>BATATA</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>R$ 1,00 </td>
+            <td>MÍNIMO </td>
+            <td>100</td>
+            <td>90 </td>
+            <td>R$90,00</td>
         </tr>
         <tr>
-            <td>08</td>
+            <td>008</td>
             <td>COCA COLA </td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>R$ 10,00 </td>
+            <td>SEM ESTOQUE</td>
+            <td>50</td>
+            <td>50</td>
+            <td>R$500,00</td>
         </tr>
         <tr>
-            <td>09</td>
+            <td>009</td>
             <td>SUCO</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
+            <td>R$ 1,00 </td>
+            <td>MÁXIMO</td>
+            <td>50 </td>
             <td>10 </td>
+            <td>R$10,00</td>
         </tr>
         <tr>
-            <td>10 </td>
+            <td>010 </td>
             <td>CARNE</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>R$ 50,00 / KG </td>
+            <td>MÁXIMO </td>
+            <td>10.000 KG</td>
+            <td>10 KG </td>
+            <td>R$500,00</td>
         </tr>
         <tr>
-            <td>11</td>
+            <td>011</td>
             <td>FRANGO</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>R$ 12,00 / KG</td>
+            <td>MÁXIMO </td>
+            <td>10.000 KG</td>
+            <td>5 KG</td>
+            <td>R$60,00</td>
         </tr>
         <tr>
-            <td>12 </td>
+            <td>012 </td>
             <td>TOMATE</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
+            <td>R$ 00,50 </td>
+            <td>SEM ESTOQUE </td>
             <td>200 </td>
-            <td>10 </td>
+            <td>200</td>
+            <td>R$100,00</td>
         </tr>
         <tr>
-            <td>13</td>
-            <td>ALFACE</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
-            <td>200 </td>
-            <td>10 </td>
+            <td>013</td>
+            <td>ALFACE AMREICANO</td>
+            <td>R$ 10,00</td>
+            <td>MÉDIO</td>
+            <td>100</td>
+            <td>50</td>
+            <td>R$500,00 </td>
         </tr>
         <tr>
-            <td>14</td>
+            <td>014</td>
             <td>SABÃO</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
+            <td>R$ 40,00 </td>
+            <td>MÉDIO </td>
             <td>200 </td>
-            <td>10 </td>
+            <td>100</td>
+            <td>R$4.000,00</td>
         </tr>
         <tr>
-            <td>15</td>
+            <td>015</td>
             <td>CAFÉ</td>
-            <td>R$ 20,00 </td>
-            <td>GRANDE </td>
+            <td>R$ 21,00 </td>
+            <td>MÍNIMO </td>
             <td>200 </td>
-            <td>10 </td>
+            <td>60</td>
+            <td>R$1.260,00</td>
+        </tr>
+
+        <tr>
+
+        </tr>
+
+        <tr>
+            <td colspan="7"> TOTAL VENDIDO R$ 7.320,00</td>
         </tr>
     
     </table>
