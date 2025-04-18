@@ -3,22 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
+
+  <h1> Formulario</h1>
     <!-- Atributo action serve para executar uma ação, exemplo: 
         enviar um usuario para outro site web, 
         enviar um email de boas vindas para o usuario
         Guardar informações preenchida no formulario para o banco de dados ou chamar alguma ação usando o javascript
     -->
     <form action="">
+
+   
+        <label for="">Nome </label>
+        <input type="text" placeholder="Insira o nome do usuario"> 
+
         <!-- Campos do formulário aqui -->
         <!-- placeholder para colocar um texto no input quando o valor do atributo type estiver como button -->
-        <input type="button"
-       value=" Button"
-        >
+        
+        <!-- placeholder para inserir um texto auxiliar para informar o que usuario deve digitar no campo -->
+       
 
+        <!-- type radio- trés opções -->
+        <!-- Se colocar a mesma palavra para todos no name do radio, irá selecionar somente uma bolinha de opção  -->
+    <br>
+<h3> Insira o estado que você mora</h3>
+        <input type="radio" name="1">
+        <label for="">São Paulo</label>
 
+        <br>
+
+        <input type="radio" name="1">
+        <label for="">Rio de Janeiro</label>
+
+        <br>
+
+        <input type="radio" name="1">
+        <label for="">Minas Gerais</label>
+    <br>
+
+    <h3>Insira tipos de musicas que você gosta</h3>
+
+    <input type="checkbox">
+    <label for="">Pagode</label>
+    <br>
+
+    <input type="checkbox">
+    <label for="">MPB</label>
+    <br>
+
+    <input type="checkbox">
+    <label for="">Fuck</label>
+    <br>
+
+    <input type="checkbox">
+    <label for="">Rock</label>
+
+    <br>
+
+    <h3>Distancia de procura</h3>
+    <label for=""> 0 Km</label>
+    <input type="range">
+    <label for="">100 Km</label>
+    <br>
+
+<h3> Selecione uma cor</h3>   
+
+    <select name="" id="">
+        
+        <option value="">Amarelo</option>
+        <option value="">Azul</option>
+        <option value="">Vermelho</option>
+
+    </select>
+
+    <br><br>
+
+    <h3> Interligação do input com datalist</h3>
+
+    <input type="" list="Busca">
+    <datalist id="Busca">
+        
+        <option value="Amarelo"></option>
+        <option value="Azul"></option>
+        <option value="Vermelho"></option>
+
+    </datalist>
+    
+    <br>
+    <br>
+    <br>
+    <input type="button"  value="Enviar">
+       
+
+        
+        
+         
     </form>
     
 </body>
