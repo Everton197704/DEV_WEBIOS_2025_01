@@ -13,11 +13,15 @@
         enviar um email de boas vindas para o usuario
         Guardar informações preenchida no formulario para o banco de dados ou chamar alguma ação usando o javascript
     -->
-    <form action="">
+    <form action="./BoasVidas.Html" target="_blank">
 
    
-        <label for="">Nome </label>
-        <input type="text" placeholder="Insira o nome do usuario"> 
+       <fieldset>
+            <Legend>Digite o seu nome</Legend>
+            <label for="">Nome </label>
+            <input type="text" placeholder="Insira o nome do usuario" required>
+
+       </fieldset> 
 
         <!-- Campos do formulário aqui -->
         <!-- placeholder para colocar um texto no input quando o valor do atributo type estiver como button -->
@@ -28,7 +32,12 @@
         <!-- type radio- trés opções -->
         <!-- Se colocar a mesma palavra para todos no name do radio, irá selecionar somente uma bolinha de opção  -->
     <br>
-<h3> Insira o estado que você mora</h3>
+
+    
+
+        <fieldset>
+        <legend>Insira o estado que você mora</legend>
+
         <input type="radio" name="1">
         <label for="">São Paulo</label>
 
@@ -41,65 +50,75 @@
 
         <input type="radio" name="1">
         <label for="">Minas Gerais</label>
+
+        </fieldset>
     <br>
 
-    <h3>Insira tipos de musicas que você gosta</h3>
+    <fieldset>
+        <legend>Insira tipos de musicas que você gosta</legend>
+        <input type="checkbox">
+        <label for="">Pagode</label>
+        <br>
+    
+        <input type="checkbox">
+        <label for="">MPB</label>
+        <br>
+    
+        <input type="checkbox">
+        <label for="">Fuck</label>
+        <br>
+    
+        <input type="checkbox">
+        <label for="">Rock</label>
+    </fieldset>
 
-    <input type="checkbox">
-    <label for="">Pagode</label>
     <br>
 
-    <input type="checkbox">
-    <label for="">MPB</label>
+    <fieldset>
+        <legend>Distancia de procura</legend>
+        <label for=""> 0 Km</label>
+        <input type="range">
+        <label for="">100 Km</label>
+    </fieldset>
+   
     <br>
 
-    <input type="checkbox">
-    <label for="">Fuck</label>
-    <br>
+    <fieldset>
+        <legend>Selecione uma cor</legend>
 
-    <input type="checkbox">
-    <label for="">Rock</label>
-
-    <br>
-
-    <h3>Distancia de procura</h3>
-    <label for=""> 0 Km</label>
-    <input type="range">
-    <label for="">100 Km</label>
-    <br>
-
-<h3> Selecione uma cor</h3>   
-
-    <select name="" id="">
+        <select name="" id="">
         
         <option value="">Amarelo</option>
         <option value="">Azul</option>
         <option value="">Vermelho</option>
-
-    </select>
+    
+        </select>
+    </fieldset>
 
     <br><br>
 
-    <h3> Interligação do input com datalist</h3>
-
-    <input type="" list="Busca">
-    <datalist id="Busca">
+    <fieldset>
+        <legend> Interligação do input com datalist</legend>
+        <input type="" list="Busca">
+        <datalist id="Busca">
         
         <option value="Amarelo"></option>
         <option value="Azul"></option>
         <option value="Vermelho"></option>
 
     </datalist>
-    
-    <br>
-    <br>
-    <br>
-    <input type="button"  value="Enviar">
-       
 
-        
-        
-         
+    </fieldset>
+    
+    <br><br>
+    <!-- Area para grade quantidade de texto -->
+    <textarea  cols="30" rows="10"></textarea>
+
+    <br>
+    <br>
+    <br>
+    <input type="submit"  value="Enviar">
+       
     </form>
     
 </body>
