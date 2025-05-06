@@ -1,6 +1,12 @@
 /* ID para chamar é # */
 /* Para chamar uma CLASS é . */
+*{
+    margin: 0;
+}
 
+div section {
+    background-color: yellow;
+}
 #OK{
     background-color: cyan;
 }
