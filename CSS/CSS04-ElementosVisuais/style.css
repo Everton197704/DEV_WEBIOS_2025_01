@@ -1,0 +1,16 @@
+#P1{
+
+    /* Largura da borda */
+    border-width: 2px;
+    /* cor da borda */
+    border-color: black;
+    /* estilo da borda */
+    border-style: outset;
+    /* Espaçamento do texto para borda */
+    padding: 10px;
+
+    
+    
+    
+
+}
