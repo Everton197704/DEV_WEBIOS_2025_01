@@ -3,8 +3,8 @@
      border:  1px solid red;
      /* espaço interno */
      padding: 10px;
-    /*  */
-     margin: 10px;
+    /* Espaçamento entre as divs */
+     margin-bottom: 25px ;
 
 }
 
