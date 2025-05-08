@@ -1,0 +1,19 @@
+#DIV1{
+   
+     border:  1px solid red;
+     /* espaço interno */
+     padding: 10px;
+    /*  */
+     margin: 10px;
+
+}
+
+#DIV2{
+    border:  1px solid greenyellow;
+    padding: 50px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}

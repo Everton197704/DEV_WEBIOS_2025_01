@@ -3,14 +3,39 @@
     /* Largura da borda */
     border-width: 2px;
     /* cor da borda */
-    border-color: black;
+    border-color: rgb(252, 252, 252);
     /* estilo da borda */
     border-style: outset;
     /* Espaçamento do texto para borda */
     padding: 10px;
 
-    
-    
-    
+color: aliceblue;
 
+}
+
+#P2{
+    color: aliceblue;
+}
+
+figcaption {
+
+    color: aliceblue;
+}
+
+img{
+
+    /* largura */
+width: 300px;
+    /* Altura */
+height: 200px;
+
+}
+
+body{
+
+    background-image: url("./Recompensas_Infobox.webp");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* fixed / scroll */ 
+ 
 }
