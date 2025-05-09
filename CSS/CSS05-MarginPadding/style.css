@@ -1,12 +1,29 @@
+/* *{
+margin: auto;
+width:  90px;
+
+} */
+
+
 #DIV1{
    
      border:  1px solid red;
      /* espaço interno */
      padding: 10px;
     /* Espaçamento entre as divs */
-     margin-bottom: 25px ;
+
+    /* formato cruz (top, bottom , right , left */
+    /* margin: 50px 40px 90px 25px; */
+
+    /* Top, (right, bottom) left */
+    /* margin: 20px 5% 1.5rem; */
+
+    /* aplicar o mesmo pixel para 4 lados */
+    margin: 0px;
 
 }
+
+
 
 #DIV2{
     border:  1px solid greenyellow;
@@ -14,6 +31,6 @@
 }
 
 img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
 }
