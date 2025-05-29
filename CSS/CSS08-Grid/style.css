@@ -67,6 +67,14 @@ body {
     color: #d82f2f;
 }
 
+#item1 {
+
+    /* referente as linhas verticais */
+    grid-column: 1/3 ;
+    /* referente as linhas horizontais */
+    grid-row:  1/3 ;
+}
+
 h1{
     text-align: center;
     font-family: "Lacquer", system-ui;
