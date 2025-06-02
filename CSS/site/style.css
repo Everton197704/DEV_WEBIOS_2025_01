@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* 🌐 Layout principal com Grid */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+/* Áreas */
+header {
+  grid-area: header;
+  background: #0077cc;
+  color: white;
+  padding: 20px;
+}
+
+aside {
+  grid-area: aside;
+  background: #ddd;
+  padding: 20px;
+}
+
+main {
+  grid-area: main;
+  background: white;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* 🌐 Flexbox no menu */
+.menu {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* 🌐 Flexbox nos cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 700px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "main"
+      "aside"
+      "footer";
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+}
