@@ -18,10 +18,49 @@ idade = 89 // inicia a variavel em outra parte do codigo
 console.log (idade)
 
 // textos - strings
-var nome ='Matheus Araujo'
-var nome2 ='Matheus vinicius'
+var nome =' Matheus Araujo '
+var nome2 =' Matheus vinicius '
 var nome3 ='221321321' //texto
 
 console.log (nome) 
 console.log (nome2)
 console.log (nome3)
+
+console.log ("Olá" + "Papai") //Concatenar
+console.log ("Aluno " + nome +  " e Aluno " + nome2 + "tem um total de " + nome3 +" dinheiros") 
+
+// template strings
+
+console.log(`aluno ${nome} e aluno ${nome2} tem um total de ${nome3} dinheiros` )  
+//concatenar 3 
+
+console.log (10)
+
+// operadores Aritmeticos
+
+var valor1 = 5 
+var valor2 = 5 
+console.log (valor1 + valor2)
+console.log (valor1 - valor2)
+console.log (valor1 * valor2)
+console.log (valor1 / valor2)
+console.log (valor1 ** valor2)
+
+//operadores relacionais
+
+console.log ( 5 == 5)
+console.log ( 5 === "5")
+console.log ( 5 > 5)
+console.log ( 5 >= 5)
+console.log ( 22 < 8 )
+console.log ( 22 !== "22" )
+console.log ( "ana" ==  "ana")
+
+// operadores logicos
+
+let TemCamisa = false
+let TemCracha = true
+console.log (TemCamisa)
+console.log (TemCracha)
+console.log (TemCamisa == true && TemCracha == true)  // false == true = false
+console.log (TemCamisa == true || TemCracha == true)  // false ou true = true
