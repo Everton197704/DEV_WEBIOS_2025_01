@@ -64,3 +64,28 @@ console.log (TemCamisa)
 console.log (TemCracha)
 console.log (TemCamisa == true && TemCracha == true)  // false == true = false
 console.log (TemCamisa == true || TemCracha == true)  // false ou true = true
+
+
+// operador de atribuição
+var x = 3
+var y = 2
+// var soma = x + y
+// x = soma
+
+x = x + y
+//  x  += y formato contrario
+//  x = 3 + 2
+console.log (x)
+
+x + 720
+console.log (x)
+
+//Log  = é para mostrar resultados, mensagens do sistema
+// clear = Limpar o console  e deixar disponivel para novasmensagens
+console.clear ()
+
+console.log ("Está tudo limpo")
+console.log ("Olá mundo!")
+
+console.error("Não use essa tela, você pode ser punido por isso")
+console.warn("Mas apresenta uma mensagem em amarelo")
