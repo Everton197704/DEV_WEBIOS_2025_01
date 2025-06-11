@@ -37,6 +37,8 @@ var texto5 = "Bem vindo a Microsoft"
 let novaMensagem = texto5.replace ("Microsoft" , "IOS")
 console.log(novaMensagem)
 
+// RETIRAR ESPAÇOS EM BRANCO
 
-
+let textarea = '                            Olá Mundo, aprendendo Javascript            '
+console.log(textarea.trim())
 
